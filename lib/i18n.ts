@@ -103,31 +103,25 @@ export const translations = {
     rights: "Đã đăng ký Bản quyền."
   },
   zh: {
-    // Personal info
     name: '阮德清',
     
-    // Navbar
     home: '首頁',
     experience: '經驗',
     projects: '專案',
     contact: '聯繫',
     
-    // Hero
-    greeting: "嗨，我是",
+    greeting: "你好，我是",
     role: "軟體開發人員 | 大南大學",
     bio: "我是一名資訊科技學生，這是我創建的網站，用來存儲一些關於我的信息。",
     contactMe: "聯繫我",
     viewProjects: "查看專案",
     
-    // Experience
     workExperience: "工作經驗",
     
-    // Projects
     projectsTitle: "專案",
     liveDemo: "在線演示",
     code: "程式碼",
     
-    // Contact
     getInTouch: "取得聯繫",
     contactInfo: "聯繫信息",
     contactDesc: "請隨時通過以下任何渠道與我聯繫。",
