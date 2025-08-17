@@ -8,43 +8,47 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { StaggerContainer, StaggerItem, HoverCard } from "@/components/animations";
 import { useTranslation } from "@/lib/language-provider";
+import WatchMovies from "../assets/images/watch_movies.png";
+import SmartHome from "../assets/images/Smart_home.jpg";
+import ManageClass from "../assets/images/Manage_Class.png";
+import NewsApp from "../assets/images/news_app.jpg";
 
 const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "A full-featured online shopping platform with product catalog, cart functionality, and secure checkout process.",
-    image: "https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe API"],
-    demoLink: "https://example.com/demo",
-    githubLink: "https://github.com/yourusername/ecommerce"
+    title: "Watch Movies",
+    description: "Build a website that can let people watch movies for free, updated continuously.",
+    image: WatchMovies,
+    technologies: ["React"],
+    demoLink: "https://ndthah.vercel.app/",
+    githubLink: "https://github.com/nguyenducthanh04/ndt-profile"
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "A productivity application that helps users organize tasks, set priorities, and track progress with intuitive UI.",
-    image: "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3",
-    technologies: ["React", "Redux", "Firebase", "Material UI"],
-    demoLink: "https://example.com/demo",
-    githubLink: "https://github.com/yourusername/taskmanager"
+    title: "SmartHome",
+    description: "The smart home system integrates modern features such as opening the door by scanning the face and magnetic card, warning of gas leaks with sirens, LED lights, automatically opening windows and sending notification messages to Pushover, and automatically turning on lights with light sensors.",
+    image: SmartHome,
+    technologies: ["C++", "Python", "Arduino", "Pushover"],
+    demoLink: "",
+    githubLink: "https://github.com/nguyenducthanh04/Thiet-Ke-Nha-Thong-Minh"
   },
   {
     id: 3,
-    title: "Weather Dashboard",
-    description: "Real-time weather information application with location-based forecasts, historical data, and interactive maps.",
-    image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3",
-    technologies: ["JavaScript", "OpenWeather API", "Chart.js", "Leaflet"],
-    demoLink: "https://example.com/demo",
-    githubLink: "https://github.com/yourusername/weather"
+    title: "Manage Class",
+    description: "Offline classroom management project.",
+    image: ManageClass,
+    technologies: ["JavaScript", "Express.js", "MySql", "HTML", "Bootstrap"],
+    demoLink: "",
+    githubLink: "https://github.com/nguyenducthanh04/Project-Thanh-Backend-k1"
   },
   {
     id: 4,
-    title: "Portfolio Website",
-    description: "A personal portfolio website showcasing projects, skills, and professional experience with a modern design.",
-    image: "https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3",
-    technologies: ["Next.js", "Tailwind CSS", "Framer Motion", "Vercel"],
-    demoLink: "https://example.com/demo",
-    githubLink: "https://github.com/yourusername/portfolio"
+    title: "News App",
+    description: "Application allows users to view news and read newspapers.",
+    image: NewsApp,
+    technologies: ["Flutter", "FireBase"],
+    demoLink: "",
+    githubLink: "https://github.com/nguyenducthanh04/news_app"
   }
 ];
 
